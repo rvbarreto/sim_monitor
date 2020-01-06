@@ -32,7 +32,7 @@ def getTransportAbs(U, V):
 
 # get u v data from numerical simulation
 dataset = Dataset(
-    '/home/ricardo/Documents/layer_model/mediterranean_simulation_3.nc',
+    '/home/ricardo-velho/Documents/layer_model/mediterranean_simulation_3.nc',
     'r')
 
 t = dataset.dimensions['time'].size - 1
