@@ -1,18 +1,1 @@
- Simulation started
- t =               7104001
- t: layer 4 (m)layer 5 (m)
-              7296000   5.5879354476928711E-009   2.6542693376541138E-008
- iteraction (int)time in simulation (days)rate (int/s)
-              7296000   2280.00000       328.281738    
- t: layer 4 (m)layer 5 (m)
-              7488000  -1.0989606380462646E-007   7.9162418842315674E-009
- iteraction (int)time in simulation (days)rate (int/s)
-              7488000   2340.00000       173.668076    
- t: layer 4 (m)layer 5 (m)
-              7680000  -1.1362135410308838E-007  -1.8626451492309570E-009
- iteraction (int)time in simulation (days)rate (int/s)
-              7680000   2400.00000       119.046158    
- t: layer 4 (m)layer 5 (m)
-              7872000  -6.5192580223083496E-008   3.2596290111541748E-008
- iteraction (int)time in simulation (days)rate (int/s)
-              7872000   2460.00000       91.8640442    
+ NetCDF: HDF error
