@@ -21,7 +21,7 @@ day = (t*dt*print_t)/(60*60*24)
 y = dataset.dimensions['lat'].size
 x = dataset.dimensions['lon'].size
 
-layer = 5 - 1
+layer = 4 - 1
 U = dataset.groups['state_variables']['u'][t][layer]
 V = dataset.groups['state_variables']['v'][t][layer]
 
@@ -47,6 +47,9 @@ font_y = {'size': 14,
 cmax = transport.data.max()  # speed_phys_83.data.max()
 cmin = transport.data.min()
 
+
+plt.cm.bone_r.set_bad(color='lightgrey')
+
 sp2 = axs.pcolormesh(X_num, Y_num, transport,
                      cmap=plt.cm.bone_r,
                      vmin=cmin, vmax=cmax)
@@ -70,5 +73,5 @@ Q = axs.quiver(X_num[::4, ::4],
 #                    r'$2.5 \frac{cm}{s}$', labelpos='E',
 #                    coordinates='axes')
 
-plt.savefig('surface_transports_day_' + str(int(day)) + '.png')
+plt.savefig('surface_transports_layer'+ str(layer+1) + '_day_' + str(int(day)) + '.png')
 #plt.show()
