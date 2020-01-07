@@ -3,28 +3,6 @@ import numpy as np
 # import gc
 import matplotlib.pyplot as plt
 
-
-
-def setNanMask(size, r, dx):
-    mask = np.ones(size)
-    mid_i = int(size[0]/2)
-    mid_j = int(size[1]/2)
-    for i in range(0, size[0]):
-        for j in range(0, size[1]):
-            diagonal = np.sqrt((i-mid_i)**2+(j-mid_j)**2)*dx
-            if (diagonal > r):
-                mask[i, j] = 0.0
-    mask = mask.reshape(size[0]*size[1])
-    return mask
-
-
-def applyNanMask(data, mask):
-    data = data.reshape(len(data)**2)
-    data = data*mask
-    data[data == 0.0] = float('NaN')
-    return data
-
-
 def getTransportAbs(U, V):
     speed = np.sqrt(U**2+V**2)
     return speed
