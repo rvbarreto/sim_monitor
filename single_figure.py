@@ -21,7 +21,7 @@ day = (t*dt*print_t)/(60*60*24)
 y = dataset.dimensions['lat'].size
 x = dataset.dimensions['lon'].size
 
-layer = 4 - 1
+layer = 5 - 1
 U = dataset.groups['state_variables']['u'][t][layer]
 V = dataset.groups['state_variables']['v'][t][layer]
 
