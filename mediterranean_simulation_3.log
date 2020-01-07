@@ -1,2 +1,6 @@
  Simulation started
  t =               8256001
+ t: layer 4 (m)layer 5 (m)
+              8448000   5.5879354476928711E-008   5.5879354476928711E-009
+ iteraction (int)time in simulation (days)rate (int/s)
+              8448000   2640.00000       379.828491    
