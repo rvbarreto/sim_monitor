@@ -1,7 +1,2 @@
  Simulation started
- t =               8064001
- t: layer 4 (m)layer 5 (m)
-              8256000  -6.8917870521545410E-008  -1.2107193470001221E-008
- iteraction (int)time in simulation (days)rate (int/s)
-              8256000   2580.00000       374.694031    
- NetCDF: HDF error
+ t =               8256001
