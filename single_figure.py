@@ -73,5 +73,5 @@ Q = axs.quiver(X_num[::4, ::4],
 #                    r'$2.5 \frac{cm}{s}$', labelpos='E',
 #                    coordinates='axes')
 
-plt.savefig('surface_transports_layer'+ str(layer+1) + '_day_' + str(int(day)) + '.png')
+plt.savefig('surface_transports_layer_'+ str(layer+1) + '_day_' + str(int(day)) + '.png')
 #plt.show()
