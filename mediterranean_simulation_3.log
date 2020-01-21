@@ -1,0 +1,4 @@
+ t: layer 4 (m)layer 5 (m)
+               192000   1.6763806343078613E-008  -2.3283064365386963E-008
+ iteraction (int)time in simulation (days)rate (int/s)
+               192000   60.0000000       8.81491280    
