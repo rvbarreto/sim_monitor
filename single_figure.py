@@ -25,7 +25,7 @@ layer = 5 - 1
 U = dataset.groups['state_variables']['u'][t][layer]
 V = dataset.groups['state_variables']['v'][t][layer]
 
-h = dataset.groups['state_variables']['depth'][t][layer] - dataset.groups['state_variables']['depth'][t][layer -1]
+h = dataset.groups['state_variables']['depth'][t][layer+1] - dataset.groups['state_variables']['depth'][t][layer]
 
 U[h == 0] = float('NaN')
 V[h == 0] = float('NaN')
@@ -67,7 +67,7 @@ Q = axs.quiver(X_num[::4, ::4],
                U[::4, ::4],
                V[::4, ::4],
                color='r',
-               scale=1,
+               scale=1/2,
                scale_units='xy')
 # qk = axs.quiverkey(Q, 0.80, 0.05, 1,
 #                    r'$2.5 \frac{cm}{s}$', labelpos='E',
