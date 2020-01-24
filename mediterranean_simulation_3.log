@@ -26,3 +26,7 @@
               2112000  -6.5192580223083496E-008   5.1222741603851318E-009
  iteraction (int)time in simulation (days)rate (int/s)
               2112000   660.000000       13.9163494    
+ t: layer 4 (m)layer 5 (m)
+              2304000  -3.9115548133850098E-008   7.4505805969238281E-009
+ iteraction (int)time in simulation (days)rate (int/s)
+              2304000   720.000000       13.2791567    
