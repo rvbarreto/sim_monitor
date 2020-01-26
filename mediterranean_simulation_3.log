@@ -58,3 +58,8 @@
               3648000  -5.4016709327697754E-008   1.2572854757308960E-008
  iteraction (int)time in simulation (days)rate (int/s)
               3648000   1140.00000       11.2120247    
+ t: layer 4 (m)layer 5 (m)
+              3840000  -5.5879354476928711E-009   3.9581209421157837E-008
+ iteraction (int)time in simulation (days)rate (int/s)
+              3840000   1200.00000       11.0638695    
+ NetCDF: HDF error
